@@ -1,6 +1,7 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+// run for test
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.json", // import extension from other file
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
