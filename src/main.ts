@@ -56,3 +56,33 @@ platformBrowserDynamic().bootstrapModule(AppModule)
  *      debugging an app, we could leave on during development. By default, this value is true.
  *
  */
+
+/**
+ *
+ * Understanding Modules
+ *    ES2015 Modules
+ *        a.js
+ *            import b from './b';
+ *            console.log(b.foo)
+ *        b.js
+ *            export default {
+ *              foo: 'Hello world!'
+ *            }
+ *
+ *    Problem with Modules
+ *        - Duplicate Modules
+ *        - Circular Dependency
+ *        - Harder to manage overall
+ *
+ *    Angular modules
+ *      - Not a replacement of ES2015 Modules
+ *      - Groups modules by feature
+ *
+ *    How Angular Modules Work
+ *            Product
+ *          Single Product
+ *          Product List
+ *            getImage()
+ *
+ *    src/app/app.module.ts: root module
+ */
